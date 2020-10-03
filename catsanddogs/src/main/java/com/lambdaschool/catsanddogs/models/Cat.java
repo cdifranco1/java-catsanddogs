@@ -34,6 +34,6 @@ public class Cat
 
     public void setCatname(String catname)
     {
-        this.catname = catname;
+        this.catname = catname.toUpperCase();
     }
 }
